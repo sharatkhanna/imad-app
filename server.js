@@ -21,7 +21,7 @@ app.get('/article-three', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'article-three.html'));
 });
 
-app..get('/guessingGame', function (req, res) {
+app.get('/guessingGame', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'guessingGame.html'));
 });
 
