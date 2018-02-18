@@ -10,34 +10,21 @@ var articleOne = {
     heading: 'Article One',
     date: '17 Feb, 2018',
     content: `
-    <html>
+
+            <div>
+                <p>
+                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
+                </p>
+                <p>
+                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
+                </p>
+                <p>
+                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
+                </p>
+            </div>
+            </div>
+    
         
-        <body>
-            <div class="container">
-            <div>
-                <a href="/">Home</a>
-            </div>
-            <hr/>
-            <h3>
-                Article One
-            </h3>
-            <div>
-                17 Feb, 2018
-            </div>
-            <div>
-                <p>
-                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-                </p>
-                <p>
-                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-                </p>
-                <p>
-                    This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
-                </p>
-            </div>
-            </div>
-        </body>
-        </html>
         `
         };
         
