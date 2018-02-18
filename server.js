@@ -22,7 +22,6 @@ var articles = {
             </p>`
     },
     'article-two' : {
-        articleTwo = {
         title: 'Article Two | Sharat Khanna',
         heading: 'Article Two',
         date: '18 Feb, 2018',
@@ -36,7 +35,6 @@ var articles = {
             <p>
                 This is the content for my second article. This is the content for my second article. This is the content for my second article. This is the content for my second article. This is the content for my second article. This is the content for my second article. This is the content for my second article. This is the content for my second article.
             </p>`
-    },
     },
     'article-three' :  {
         
@@ -54,7 +52,7 @@ var articles = {
                 This is the content for my third article. This is the content for my third article. This is the content for my third article. This is the content for my third article. This is the content for my third article. This is the content for my third article. This is the content for my third article. This is the content for my third article.
             </p>`
         
-    },
+    }
     };
         
             
