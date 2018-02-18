@@ -11,15 +11,15 @@ var articleOne = {
     date: '17 Feb, 2018',
     content: `
     <html>
-    <head>
-        <title>
-        Article One: Sharat Khanna    
-        </title>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <link href="/ui/style.css" rel="stylesheet" />
-    </head>
-    <body>
-        <div class="container">
+        <head>
+            <title>
+            Article One: Sharat Khanna    
+            </title>
+            <meta name="viewport" content="width=device-width, initial-scale=1"/>
+            <link href="/ui/style.css" rel="stylesheet" />
+        </head>
+        <body>
+            <div class="container">
             <div>
                 <a href="/">Home</a>
             </div>
@@ -41,11 +41,10 @@ var articleOne = {
                     This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article. This is the content for my first article.
                 </p>
             </div>
-        </div>
-    </body>
-</html>
-`
-        
+            </div>
+        </body>
+        </html>
+        `
         };
         
 function createTemplate(data) {
@@ -90,7 +89,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/article-one', function (req, res) {
-    res.send(create(articleOne));
+    res.send(createTemplate(articleOne));
 });
 
 app.get('/article-two', function (req, res) {
