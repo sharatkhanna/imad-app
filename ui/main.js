@@ -2,9 +2,9 @@
 
 var button = document.getElementById('counter');
 var counter = 50;
-button.onClick = function () {
+button.onclick = function () {
   
-  //counter = counter + 1;
-  //var span = document.getElementById('count');
+  counter = counter + 1;
+  var span = document.getElementById('count');
   span.innerHTML = counter.toString();
 };
