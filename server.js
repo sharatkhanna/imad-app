@@ -115,6 +115,10 @@ app.get('/guessingGame', function (req, res) {
     res.sendFile(path.join(__dirname, 'ui', 'guessingGame.html'));
 });
 
+app.get('/new', function (req, res) {
+    res.sendFile(path.join(__dirname, 'ui', 'new.html'));
+});
+
 app.get('/article-two', function (req, res) {
     res.send('Article two requested and will be served');
 });
